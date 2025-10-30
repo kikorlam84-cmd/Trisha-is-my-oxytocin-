@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento:wght@400&family=Poppins:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #fce4ec; /* হালকা গোলাপী ব্যাকগ্রাউন্ড */
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 30px;
+    background: white;
+    border-radius: 25px; /* আরও গোলাকার */
+    box-shadow: 0 10px 20px rgba(255, 51, 102, 0.2); /* আকর্ষণীয় শ্যাডো */
+    position: relative;
+}
+
+.question {
+    color: #ff3366; /* গাঢ় পিঙ্ক */
+    font-family: 'Sacramento', cursive; /* ফ্যান্সি ফন্ট */
+    font-size: 3.5em; /* ফন্ট বড় */
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 3px solid #ffccd5; /* ছবির বর্ডার */
+}
+
+.btn-group {
+    position: relative;
+    height: 70px; 
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 12px 30px;
+    margin: 0 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px; /* ক্যাপসুল আকৃতি */
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#yesBtn {
+    background-color: #ff3366; /* হট পিঙ্ক */
+    color: white;
+    box-shadow: 0 4px 8px rgba(255, 51, 102, 0.4);
+}
+
+#yesBtn:hover {
+    background-color: #e62e5c;
+    transform: translateY(-2px); /* হালকা উপরে ওঠা */
+}
+
+#noBtn {
+    background-color: #f0f0f0;
+    color: #555;
+    border: 1px solid #ccc;
+    position: absolute;
+    transition: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.result-text {
+    color: #ff3366;
+    font-family: 'Sacramento', cursive;
+    font-size: 4em;
+    margin-bottom: 0.2em;
+}
+
+.result-subtitle {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+/* GIF এর জন্য অতিরিক্ত স্টাইল */
+#gifResult {
+    width: 250px;
+    height: auto;
+}
